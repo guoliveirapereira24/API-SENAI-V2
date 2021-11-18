@@ -13,6 +13,19 @@
 
         }
 
+        public function router(){
+
+            switch ($this->_method) {
+                case 'value':
+                    # code...
+                    break;
+                
+                default:
+                    # code...
+                    break;
+            }
+        }
+
     }
 
 
